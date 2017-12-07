@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8AF4B941B145DF18AA1EB6C5 /* Pods_SmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F81B0971B46E79504F64598 /* Pods_SmartHome.framework */; };
+		D011690E1FD9CE1C001D4732 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011690D1FD9CE1C001D4732 /* LoginButton.swift */; };
 		D0563A471FD5E53600571D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0563A461FD5E53600571D54 /* AppDelegate.swift */; };
 		D0563A491FD5E53600571D54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0563A481FD5E53600571D54 /* ViewController.swift */; };
 		D0563A4C1FD5E53600571D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0563A4A1FD5E53600571D54 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		32123D70AC81CB081E38D68B /* Pods-SmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.release.xcconfig"; sourceTree = "<group>"; };
 		36D36FB5E72C6E924B804E4F /* Pods-SmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.debug.xcconfig"; sourceTree = "<group>"; };
 		4F81B0971B46E79504F64598 /* Pods_SmartHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D011690D1FD9CE1C001D4732 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		D0563A431FD5E53600571D54 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0563A461FD5E53600571D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0563A481FD5E53600571D54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			children = (
 				D0563A581FD5E57900571D54 /* CollectionViewCell */,
 				D0563A461FD5E53600571D54 /* AppDelegate.swift */,
+				D011690D1FD9CE1C001D4732 /* LoginButton.swift */,
 				D0563A481FD5E53600571D54 /* ViewController.swift */,
 				D0563A4A1FD5E53600571D54 /* Main.storyboard */,
 				D0563A4D1FD5E53600571D54 /* Assets.xcassets */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0563A491FD5E53600571D54 /* ViewController.swift in Sources */,
+				D011690E1FD9CE1C001D4732 /* LoginButton.swift in Sources */,
 				D0563A471FD5E53600571D54 /* AppDelegate.swift in Sources */,
 				D0563A5A1FD5E57900571D54 /* LoginCell.swift in Sources */,
 			);

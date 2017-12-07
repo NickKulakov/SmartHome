@@ -8,6 +8,7 @@
 import SnapKit
 import UIKit
 
+
 class ViewController: UIViewController {
     let id = "Cell"
     let collectionView : UICollectionView = {
@@ -48,6 +49,9 @@ extension ViewController :UICollectionViewDataSource, UICollectionViewDelegate, 
         // if item equal 4 then use this cell else use another cell
         if indexPath.item == 3 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: LoginCell.reuseidentifire, for: indexPath)
+            let loginButton = LoginButton()
+            loginButton.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.width)
+            cell.contentView.addSubview(loginButton)
             return cell
         } else {
             //another cell
